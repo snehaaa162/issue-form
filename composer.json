@@ -1,0 +1,17 @@
+{
+    "name": "issueconnector/submission-form-connector",
+    "description": "Laravel Issue Submission Form Package",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "IssueConnector\\submission-form-connector\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "IssueConnector\\submission-form-connector\\PackageServiceProvider"
+            ]
+        }
+    }
+}
