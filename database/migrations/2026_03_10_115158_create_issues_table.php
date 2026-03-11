@@ -15,6 +15,8 @@ return new class extends Migration
             $table->string('title');
             $table->text('body');
             $table->string('status')->default('open');
+            $table->string('created_by')->nullable();
+            $table->string('updated_by')->nullable();
             $table->timestamps();
         });
 
