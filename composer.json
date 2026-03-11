@@ -2,15 +2,16 @@
     "name": "issueconnector/submission-form-connector",
     "description": "Laravel Issue Submission Form Package",
     "type": "library",
+    "license": "MIT",
     "autoload": {
         "psr-4": {
-            "IssueConnector\\submission-form-connector\\": "src/"
+            "IssueConnector\\SubmissionFormConnector\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "IssueConnector\\submission-form-connector\\PackageServiceProvider"
+                "IssueConnector\\SubmissionFormConnector\\PackageServiceProvider"
             ]
         }
     }
